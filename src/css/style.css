@@ -24,6 +24,8 @@
 
 
 /*règle de layout */
-@import "layout/header.css"
+@import "layout/header.css";
+@import "layout/footer.css";
+
 
 /*règle de composents */
