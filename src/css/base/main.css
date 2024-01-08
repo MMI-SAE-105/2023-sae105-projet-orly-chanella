@@ -1,0 +1,53 @@
+/* H1 */
+h1 {
+    font-family: Anton, sans-serif;
+    font-weight: regular;
+    font-size: var(--header-1);
+    line-height: 157%;
+    letter-spacing: 7%;
+}
+
+/* H2 */
+h2 {
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--header-2);
+    line-height: normal; /* auto est remplacé par normal pour réinitialiser la hauteur de ligne à la valeur par défaut */
+    letter-spacing: 0;
+}
+
+/* H3 */
+h3 {
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--header-3);
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+/* Body1 */
+body {
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--body-1);
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+/* Body2 */
+p.body2 {
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--body-2);
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+/* Body3 */
+p.body3 {
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--body-3);
+    line-height: normal;
+    letter-spacing: 0;
+}

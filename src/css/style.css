@@ -1,31 +1,23 @@
 /* Polices de caractère */
-  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
- 
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
- 
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
- 
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
 
 /* Librairies */
-
+@import "vendors/normalize.css";
 
 /* Variables */
-
+@import "utils/variables.css";
 
 /* Règles générales */
-
+@import "base/main.css";
+@import "base/media.css";
 
 /*règle de layout */
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/section.css";
 
 
 /*règle de composents */
+@import "components/intro.css";
