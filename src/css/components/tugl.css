@@ -1,0 +1,31 @@
+.section {
+  text-align: center; 
+   
+}
+
+.main__img{
+ display: block;   
+ margin: 0 auto;
+ border-radius: 60px;
+}
+.main__img1{
+    display: block;   
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+.main__p{
+text-align: center;
+}
+
+.main__h2{
+    text-align: left;
+
+}
+.main__h1{
+    text-align: center;
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--body-2);
+}
+
