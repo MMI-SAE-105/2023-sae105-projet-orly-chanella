@@ -29,3 +29,25 @@ text-align: center;
     font-size: var(--body-2);
 }
 
+.title{
+    text-align: center;
+}
+.title__p{
+margin: 20px;
+}
+
+.body__p{
+    margin: 20px;
+    text-align: center;
+    font-family: BenchNine, sans-serif;
+    font-weight: regular;
+    font-size: var(--body-2); 
+}
+
+.img__img{
+    display: block;   
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+
