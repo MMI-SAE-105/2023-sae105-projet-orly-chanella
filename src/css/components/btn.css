@@ -1,0 +1,39 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--beige);
+
+}
+
+.body__menu {
+    background-color: var(--rouge-sombre);
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.rect__header{
+   position: relative;
+  
+    
+}
+
+.svg__rectangle {
+width: 100%;
+height: auto;
+}
+
+.text__rect {
+    font-family: Anton, sans-serif;
+    font-size: 36px ;
+    color: var(--beige);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
