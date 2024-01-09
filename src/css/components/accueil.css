@@ -29,5 +29,5 @@ body {
   transform: translate(-50%, -50%);
   font-family: Anton, sans-serif;
   font-size: 36px;
-  color: #333;
+  color:var(--beige);
 }

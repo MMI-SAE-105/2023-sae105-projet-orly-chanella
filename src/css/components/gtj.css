@@ -6,3 +6,34 @@
     margin: 0 auto;
 border-radius: 200px;
 }
+
+.containe{
+    /*position: relative;*/
+    display: flex;
+     align-items: center;
+}
+
+.cr__img {
+    width: 127px;
+    height: 188px;
+    border-radius: 40px;
+   margin: 20px;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+}
+
+.body1{
+margin: 0;
+}
+
+.body2{
+    margin: 20px;
+}
+
+.li__title{
+    margin: 20px;
+}
+
