@@ -5,6 +5,13 @@
     justify-content:space-between;
 }
 
+.header__world {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
 
 .headerlogo-site{
     width:80%;
@@ -19,3 +26,4 @@
     background-color: rgba(255, 200, 90, 1);
     border:0;
 }
+

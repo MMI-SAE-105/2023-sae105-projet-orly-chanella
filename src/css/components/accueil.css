@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.image-container {
+  position: relative;
+  text-align: center; /* Aligner le texte au centre */
+}
+
+.header__image {
+  display: inline-block;
+  position: relative;
+}
+
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inside__rectangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Anton, sans-serif;
+  font-size: 36px;
+  color: #333;
+}

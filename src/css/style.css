@@ -21,4 +21,5 @@
 
 /*règle de composents */
 @import "components/intro.css";
-@import "components/btn.css"
+@import "components/btn.css";
+@import "components/accueil.css";

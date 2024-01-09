@@ -1,0 +1,20 @@
+.actor{
+    display: grid;
+    background-color: #ffffff;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space2x);
+    margin-bottom: var(--space3x);
+    
+    }
+    
+    .actor__socials {
+    display: none;
+    }
+    
+    .actor__title {
+        margin: 0;
+      font-size: var(--text-md);
+      font-weight: 500;
+    
+    }
+    
