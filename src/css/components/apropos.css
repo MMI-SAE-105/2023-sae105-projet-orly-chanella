@@ -1,0 +1,31 @@
+.container__pj {
+    max-width: 800px;
+    margin: 20px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc; /* Ajoute une ligne de séparation entre les projets */
+}
+
+.a {
+    text-decoration: none;
+    color: #333;
+}
+/*
+.body1 {
+    margin: 0;
+}*/
+
+/* Style facultatif pour rendre le texte à droite en italique */
