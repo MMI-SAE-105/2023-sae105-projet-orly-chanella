@@ -29,3 +29,57 @@
 }*/
 
 /* Style facultatif pour rendre le texte à droite en italique */
+.div__app{
+    margin: 20px;
+}
+.img__app{
+    background-color: var(--beige);
+   
+    border-radius: 400px;
+    border-color: beige;
+}
+
+.section__glo{
+max-width: 800px;
+margin: 20px auto;
+}
+
+.h2__glo{
+text-align: center;
+}
+
+.ul__glo{
+    margin: 20px;
+list-style: none;
+padding: 0;
+}
+
+.li__glo{
+margin-bottom: 20px;
+}
+
+.body1__glo{
+    margin: 0;
+    line-height: 1.6;
+}
+
+.sect__cont{
+max-width: 800px;
+margin: 20px;
+}
+.div__cont{
+margin-bottom: 20px;
+}
+.form{
+ display: flex;   
+ flex-direction: column;
+}
+.label{
+margin-bottom: 5px;
+}
+.textarea{
+width: 100%;
+padding: 8px;
+box-sizing: border-box;
+margin-top: 5px;
+}
