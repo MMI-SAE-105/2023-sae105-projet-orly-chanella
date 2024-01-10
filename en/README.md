@@ -1,6 +1,6 @@
-Name :
+Name : Irumva
 
-LastName :
+LastName : Orly Chanella
 
 URL FIGMA :
 
