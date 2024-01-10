@@ -37,5 +37,21 @@ height: auto;
     text-align: center;
     box-sizing: border-box;
   }
+  .m__body{
+    font-family: BenchNine, sans-serif;
+    font-size: var(--body-2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+.cover{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+ border-radius: 100px;   
+}
 
+.m__p{
+margin: 0;
+}
  
