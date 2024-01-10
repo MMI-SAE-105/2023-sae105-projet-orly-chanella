@@ -1,3 +1,33 @@
 .btn__lire{
     margin-left: 20px;
 }
+
+.body__menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+    
+}
+
+.nav {
+    text-align: center;
+    margin-top: 20px; /* Ajoute de l'espace en haut du menu */
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+.li {
+    margin-bottom: 10px; /* Ajoute un espace entre chaque élément de la liste */
+}
+
+.img__menu {
+    position: absolute;
+    top: 10px; /* Positionne l'image à 10 pixels du haut */
+    right: 10px; /* Positionne l'image à 10 pixels de la droite */
+    cursor: pointer;
+}
