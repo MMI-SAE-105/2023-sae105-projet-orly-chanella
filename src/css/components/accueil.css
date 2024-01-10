@@ -6,7 +6,7 @@ body {
 
 .image-container {
   position: relative;
-  text-align: center; /* Aligner le texte au centre */
+  text-align: center; 
 }
 
 .header__image {
@@ -20,14 +20,61 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  
+  
 }
 
 .inside__rectangle {
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Anton, sans-serif;
-  font-size: 36px;
-  color:var(--beige);
+  font-family: Anton, sans serif;
+  font-size: 24px;
+  color:var(--noir);
+}
+
+.ellipse {
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%); 
+  background: url(/public/icones/Ellipse\ 2.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+} 
+
+.thug__icon {
+  position: absolute;
+  bottom: -100px; /* Ajustez cette valeur pour placer l'icône légèrement en bas */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px; /* Ajustez la taille de l'icône selon vos besoins */
+  height: 100px; /* Ajustez la taille de l'icône selon vos besoins */
+  object-fit: contain; /* Pour ajuster la taille de l'icône sans déformation */
+  z-index: 2;
+}
+.espace{
+ margin-bottom: 210px;
+}
+
+.art__img{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+}
+.body3{
+  font-size: var(--header-3);
+  margin-left: 20px;
+}
+.body4{
+  font-size: var(--body-1);
+  margin-left: 20px;
 }
