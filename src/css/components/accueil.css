@@ -1,3 +1,5 @@
+/*page d'accueil*/
+
 body {
   margin: 0;
   padding: 0;
@@ -37,7 +39,7 @@ body {
 
 .ellipse {
   position: absolute;
-  bottom: -40%;
+  bottom: -50%;
   left: 50%;
   width: 100%;
   transform: translateX(-50%); 
@@ -51,12 +53,12 @@ body {
 
 .thug__icon {
   position: absolute;
-  bottom: -100px; /* Ajustez cette valeur pour placer l'icône légèrement en bas */
+  bottom: -150px;
   left: 50%;
   transform: translateX(-50%);
-  width: 200px; /* Ajustez la taille de l'icône selon vos besoins */
-  height: 100px; /* Ajustez la taille de l'icône selon vos besoins */
-  object-fit: contain; /* Pour ajuster la taille de l'icône sans déformation */
+  width: 200px; 
+  height: 100px; 
+  object-fit: contain; 
   z-index: 2;
 }
 .espace{
