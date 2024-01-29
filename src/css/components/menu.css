@@ -13,7 +13,7 @@
 
 .nav {
     text-align: center;
-    margin-top: 20px; /* Ajoute de l'espace en haut du menu */
+    margin-top: 20px; 
 }
 
 .ul {
@@ -22,12 +22,12 @@
 }
 
 .li {
-    margin-bottom: 10px; /* Ajoute un espace entre chaque élément de la liste */
+    margin-bottom: 10px; 
 }
 
 .img__menu {
     position: absolute;
-    top: 10px; /* Positionne l'image à 10 pixels du haut */
-    right: 10px; /* Positionne l'image à 10 pixels de la droite */
+    top: 10px; 
+    right: 10px; 
     cursor: pointer;
 }
